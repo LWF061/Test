@@ -230,3 +230,4 @@
 ### 代码解释
 一个垂直的线性布局嵌套四个水平的线性布局，每个水平布局放置四个Textview，第一、第二、第三行的第一、第三、第四个Textview权重为1，第二个Textview权重为2，第三行情况相反。边框的代码来源百度
 ### 实验结果
+![image](https://github.com/LWF061/Test/images/LinerLayout.png)
