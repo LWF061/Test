@@ -3,6 +3,7 @@ package com.example.test3;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ActionMode;
@@ -130,9 +131,14 @@ public class MainActivity extends AppCompatActivity {
                 cancel();
             }
         });
-
-
+        //自定义菜单测试文本
         textView = findViewById(R.id.txt);
+
+        Button button = findViewById(R.id.button_actionmode);
+        button.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,ActionModeActivity.class);
+            startActivity(intent);
+        });
     }
 
     @Override
