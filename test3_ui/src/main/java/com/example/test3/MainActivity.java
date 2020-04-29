@@ -26,8 +26,8 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    final String[] name = {"紫发帅哥","短发美女","长发美女","可爱小狗"};
-    final int[] header = {R.drawable.libai,R.drawable.qingzhao,R.drawable.nongyu,R.drawable.tiger};
+    final String[] name = {"Lion","Tiger","Monkey","Dog","Cat","Elephant"};
+    final int[] header = {R.drawable.lion,R.drawable.tiger,R.drawable.monkey,R.drawable.dog,R.drawable.cat,R.drawable.elephant};
     private int[] item = new int[name.length];
     private TextView textView;
     @Override
