@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Test</string>
+    <string name="app_name">MyBrowser</string>
     <string name="channel_name">MyChannel</string>
     <string name="channel_description">This is a test channel</string>
 </resources>
