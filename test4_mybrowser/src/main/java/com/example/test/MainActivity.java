@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //从intent获取数据
         String url=getIntent().getDataString();
         WebView webView = (WebView) findViewById(R.id.webview);
         webView.loadUrl(url);
-        webView.getSettings().setJavaScriptEnabled(true);
+        //设置使直接通过WebView显示网页
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {

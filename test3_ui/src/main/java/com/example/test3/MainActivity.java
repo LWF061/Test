@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(MainActivity.this,name[position],Toast.LENGTH_SHORT);//创建toast
             toast.setGravity(Gravity.CENTER,0,0);
             toast.show();
-            if (item[position]==0){
+            if (
+                    item[position]==0){
                 view.setBackgroundColor(getResources().getColor(R.color.red));
                 item[position]=1;
             }

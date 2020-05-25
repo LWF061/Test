@@ -1,2 +1,2 @@
-include ':test4_mybrowser', ':test2_layout', ':test3_ui', ':test4_intent'
+include ':test4_mybrowser', ':test2_layout', ':test3_ui', ':test4_intent', ':test5_notepad'
 rootProject.name='Test'
